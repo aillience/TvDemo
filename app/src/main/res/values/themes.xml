@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.FocusDemo" parent="@android:style/Theme.NoTitleBar.Fullscreen" />
+</resources>
