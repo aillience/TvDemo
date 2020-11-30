@@ -60,6 +60,7 @@ public class MainActivity extends Activity {
             if( event.KEYCODE_ENTER == keyCode && event.getAction() == KeyEvent.ACTION_UP){
                 //
                 Log.i("demoKey","真按钮按键监听");
+                new GenerateValueFiles(1280, 720, "").generate();
                 keyActionListener(v);
             }
             return false;
